@@ -29,6 +29,10 @@ Calculator.h
 /home/mauri/Documents/W11/I_Sem/Cryptography/Lab1/L1/Calculator.h
 iostream
 -
+cmath
+-
+numeric
+-
 
 /home/mauri/Documents/W11/I_Sem/Cryptography/Lab1/L1/Predictor.h
 stdexcept
@@ -37,6 +41,8 @@ vector
 -
 cassert
 -
+Calculator.h
+/home/mauri/Documents/W11/I_Sem/Cryptography/Lab1/L1/Calculator.h
 
 /home/mauri/Documents/W11/I_Sem/Cryptography/Lab1/L1/PseudoRandomGenerator.cpp
 cstdlib

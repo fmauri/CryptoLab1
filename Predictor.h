@@ -8,17 +8,19 @@
 #include <stdexcept>
 #include <vector>
 #include <cassert>
+#include "Calculator.h"
 
 class Predictor {
 public:
 
-    int predictLinearCongruentialGenerator(const std::vector<int> &outputs);
+    int predictLCG(const std::vector<int> &outputs);
 
-    int predictLCGconstant(const std::vector<int> &outputs, int multiplier, int modulus);
+    int predictLcgKnowingMod(const std::vector<int> &outputs, unsigned int mod);
+
+    int predictLcgKnowingMultiplierAndMod(const std::vector<int> &outputs, int multiplier, int mod);
 
     int predictGlibc(const std::vector<int> &outputs);
 
 };
-
 
 #endif //L1_PREDICTOR_H

@@ -16,14 +16,16 @@ class Tester {
 public:
     void testPredictorLCG();
 
+    void testPredictorLCGnoMod();
+
     void testPredictorLCGconstant();
 
     void testPredictGlibc();
 
 private:
-    int testNum = 1000000;
-    int initLCG = 3;
-    int initGlibc = 31;
+    int testNum = 10000;
+    int initLCG = 8;
+    int initGlibc = 34;
 };
 
 

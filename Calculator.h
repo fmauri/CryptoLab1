@@ -5,7 +5,6 @@
 #ifndef L1_CALCULATOR_H
 #define L1_CALCULATOR_H
 
-
 class Calculator {
 public:
     int invertMod(int a, int m);
@@ -13,6 +12,8 @@ public:
     int mod(int a, int b);
 
     std::vector<int> extendedEuclid(int a, int b);
+
+    int calculateGcd(int a, int b);
 };
 
 

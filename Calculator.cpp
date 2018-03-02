@@ -36,3 +36,16 @@ std::vector<int> Calculator::extendedEuclid(const int a, const int b) {
     result[2] = 0;
     return result;
 }
+
+int Calculator::calculateGcd(int a, int b) {
+    if (a < 0) a = -a;
+    if (b < 0) b = -b;
+
+    if (a == 0) return b;
+    while (b != 0) {
+        auto remainder = a % b;
+        a = b;
+        b = remainder;
+    }
+    return a;
+}

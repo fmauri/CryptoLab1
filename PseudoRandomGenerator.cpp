@@ -10,6 +10,6 @@ int PseudoRandomGenerator::linearCongruentialGenerator() {
     return static_cast<int>(lcgNext);
 }
 
-int PseudoRandomGenerator::glibc_rand_type1() {
+int PseudoRandomGenerator::glibcGenerator() {
     return rand();
 }

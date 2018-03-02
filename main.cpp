@@ -3,9 +3,9 @@
 
 int main() {
     auto *tester = new Tester();
-    auto *calc = new Calculator();
-    calc->extendedEuclid(17, 29);
-    //tester->testPredictorLCG();
-    //tester->testPredictGlibc();
+    //auto *calc = new Calculator();
+    //std::cout << calc->extendedEuclid(3, 11)[1];
+    tester->testPredictorLCG();
+    tester->testPredictGlibc();
 
 }
